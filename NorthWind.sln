@@ -89,6 +89,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateOrder", "CreateOrder"
 		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderValidator.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderValidator.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.UseCasesDTOs", "NorthWind.UseCasesDTOs", "{163CDFE0-892E-44AC-8CB2-6BC88836044E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\CreateOrderDetailParams.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\CreateOrderDetailParams.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\CreateOrderParams.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\CreateOrderParams.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.WebApi", "NorthWind.WebApi", "{A966D914-865D-4981-8DDB-431B8EE6E358}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\appsettings.Development.json = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\appsettings.Development.json
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\appsettings.json = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\appsettings.json
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\NorthWind.WebApi.csproj = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\NorthWind.WebApi.csproj
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\NorthWind.WebApi.http = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\NorthWind.WebApi.http
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Program.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Program.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\WeatherForecast.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\WeatherForecast.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{AF08E4F2-B873-4D8E-A755-1EBF32788DC9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Controllers\OrderController.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Controllers\OrderController.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Controllers\WeatherForecastController.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Controllers\WeatherForecastController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{CA4F35E5-971C-4AA6-AF39-DAEC875E434E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Properties\launchSettings.json = ..\..\..\Downloads\NorthWind-master\NorthWind.WebApi\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWInd.WebExceptionsPresenter", "NorthWInd.WebExceptionsPresenter", "{5B03C587-1225-4533-87CA-9FA41DBD841C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWInd.WebExceptionsPresenter\ApiExceptionFilterAttribute.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.WebExceptionsPresenter\ApiExceptionFilterAttribute.cs
+		..\..\..\Downloads\NorthWind-master\NorthWInd.WebExceptionsPresenter\ExceptionHandlerBase.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.WebExceptionsPresenter\ExceptionHandlerBase.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +139,8 @@ Global
 		{61AC490D-FF4F-424E-AF29-431054A55503} = {0720C277-AFDB-444A-9075-9C57B92F9997}
 		{28ECF21A-5D4D-42E1-8608-236594373163} = {61AC490D-FF4F-424E-AF29-431054A55503}
 		{C11D26C7-62E9-45C6-854C-4B76BD3F3295} = {0720C277-AFDB-444A-9075-9C57B92F9997}
+		{AF08E4F2-B873-4D8E-A755-1EBF32788DC9} = {A966D914-865D-4981-8DDB-431B8EE6E358}
+		{CA4F35E5-971C-4AA6-AF39-DAEC875E434E} = {A966D914-865D-4981-8DDB-431B8EE6E358}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD97D72-F010-412B-B304-1CE2AF914F77}
