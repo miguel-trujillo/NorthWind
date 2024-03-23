@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.Entities", "NorthWind.Entities", "{9A83FD39-F9C3-4D3D-987C-1F77551C5C15}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\NorthWind.Entities.csproj = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\NorthWind.Entities.csproj
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{9A035AE5-BA8B-4C2A-BBE1-CFDF4903580E}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,6 +39,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specifications", "Specifica
 		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Specifications\Specification.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Specifications\Specification.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.IoC", "NorthWind.IoC", "{77D7D235-C417-4574-859D-23EDA180F40D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.IoC\DependencyContainer.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.IoC\DependencyContainer.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.IoC\NorthWind.IoC.csproj = ..\..\..\Downloads\NorthWind-master\NorthWind.IoC\NorthWind.IoC.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWInd.Repositories.EFCore", "NorthWInd.Repositories.EFCore", "{26BEE0F1-8488-4AFD-9B99-7B599FFF4674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContext", "DataContext", "{B9E639FE-7676-460C-A90B-2CAB70C624F9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\DataContext\NorthWindContext.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\DataContext\NorthWindContext.cs
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\DataContext\NorthWindContextFactory.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\DataContext\NorthWindContextFactory.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +63,7 @@ Global
 		{154DC802-B922-4BA0-BE14-361345BD4010} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
 		{B69F3BF8-38D0-435D-9E8A-67BE32F2E2AB} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
 		{2B2715CB-2D98-4462-A248-155CBEE6D48A} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
+		{B9E639FE-7676-460C-A90B-2CAB70C624F9} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD97D72-F010-412B-B304-1CE2AF914F77}
