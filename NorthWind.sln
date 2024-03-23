@@ -60,6 +60,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", 
 		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Migrations\NorthWindContextModelSnapshot.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Migrations\NorthWindContextModelSnapshot.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{621AC335-F4B1-4C3F-A43A-E7E4D395FED8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderDetailRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderDetailRepository.cs
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderRepository.cs
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\UnitOfWork.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\UnitOfWork.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,7 @@ Global
 		{2B2715CB-2D98-4462-A248-155CBEE6D48A} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
 		{B9E639FE-7676-460C-A90B-2CAB70C624F9} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
 		{17E114A9-D9D3-410C-BBFB-D9695442F3AE} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
+		{621AC335-F4B1-4C3F-A43A-E7E4D395FED8} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD97D72-F010-412B-B304-1CE2AF914F77}
