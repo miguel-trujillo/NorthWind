@@ -46,6 +46,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.IoC", "NorthWind.
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWInd.Repositories.EFCore", "NorthWInd.Repositories.EFCore", "{26BEE0F1-8488-4AFD-9B99-7B599FFF4674}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContext", "DataContext", "{B9E639FE-7676-460C-A90B-2CAB70C624F9}"
 	ProjectSection(SolutionItems) = preProject
@@ -62,10 +65,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{621AC335-F4B1-4C3F-A43A-E7E4D395FED8}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj
 		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderDetailRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderDetailRepository.cs
 		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\OrderRepository.cs
 		..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\UnitOfWork.cs = ..\..\..\Downloads\NorthWind-master\NorthWInd.Repositories.EFCore\Repositories\UnitOfWork.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NorthWind.UseCases", "NorthWind.UseCases", "{0720C277-AFDB-444A-9075-9C57B92F9997}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\NorthWind.UseCases.csproj = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\NorthWind.UseCases.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{61AC490D-FF4F-424E-AF29-431054A55503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviors", "Behaviors", "{28ECF21A-5D4D-42E1-8608-236594373163}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\Common\Behaviors\ValidationBehavior.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\Common\Behaviors\ValidationBehavior.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateOrder", "CreateOrder", "{C11D26C7-62E9-45C6-854C-4B76BD3F3295}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderInputPort.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderInputPort.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderInteractor.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderInteractor.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderValidator.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.UseCases\CreateOrder\CreateOrderValidator.cs
 	EndProjectSection
 EndProject
 Global
@@ -81,6 +102,9 @@ Global
 		{B9E639FE-7676-460C-A90B-2CAB70C624F9} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
 		{17E114A9-D9D3-410C-BBFB-D9695442F3AE} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
 		{621AC335-F4B1-4C3F-A43A-E7E4D395FED8} = {26BEE0F1-8488-4AFD-9B99-7B599FFF4674}
+		{61AC490D-FF4F-424E-AF29-431054A55503} = {0720C277-AFDB-444A-9075-9C57B92F9997}
+		{28ECF21A-5D4D-42E1-8608-236594373163} = {61AC490D-FF4F-424E-AF29-431054A55503}
+		{C11D26C7-62E9-45C6-854C-4B76BD3F3295} = {0720C277-AFDB-444A-9075-9C57B92F9997}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD97D72-F010-412B-B304-1CE2AF914F77}
