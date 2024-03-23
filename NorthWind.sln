@@ -16,6 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", 
 		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Exceptions\GeneralException.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Exceptions\GeneralException.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{154DC802-B922-4BA0-BE14-361345BD4010}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IOrderDetailRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IOrderDetailRepository.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IOrderRepository.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IOrderRepository.cs
+		..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IUnitOfWork.cs = ..\..\..\Downloads\NorthWind-master\NorthWind.Entities\Interfaces\IUnitOfWork.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -23,6 +30,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9A035AE5-BA8B-4C2A-BBE1-CFDF4903580E} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
 		{37A50C03-6E47-45BF-B4E1-298D06238AB5} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
+		{154DC802-B922-4BA0-BE14-361345BD4010} = {9A83FD39-F9C3-4D3D-987C-1F77551C5C15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD97D72-F010-412B-B304-1CE2AF914F77}
